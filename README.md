@@ -29,13 +29,13 @@ This call of get_course_info function returns a Data Frame of the information al
 scraper_econ = UscCourseScraper("econ", 2022, 3)
 scraper_econ.get_course_data_frame()
 ```
-This call of get_course_dara_frame function returns a Data Frame of the information all courses of Economics in 2023 Spring Semester combined with data including rating and difficulty of each instructor. 
+This call of get_course_dara_frame function returns a Data Frame of the information all courses of Economics in 2022 Fall Semester combined with data including rating and difficulty of each instructor. 
 
 ### Export Data as a csv File
  ```python
 scraper_econ = UscCourseScraper("econ", 2022, 3)
 scraper_econ.course_data_to_csv()
 ```
-This call of course_data_to_csv exports the Data Frame as a csv file named 2023SpringEcon.csv
+This call of course_data_to_csv exports the Data Frame as a csv file named 2022FallEcon.csv
  
  
