@@ -139,7 +139,8 @@ class UscCourseScraper:
 
     def get_course_data_frame(self):
         df = self.get_professor_info()
-        print(df)
+    
+        return df
 
     def course_data_to_csv(self):
         df = self.get_professor_info()
