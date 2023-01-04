@@ -1,7 +1,7 @@
 # USC-Course-Scraper
 USC Course Scraper Class
 =
-This is a Python class that scrapes certain courses at the University of Southern California Combined with their Rate My Professors data. 
+This is a Python class that scrapes certain courses at the University of Southern California combined with their Rate My Professors data. 
 
 Initializing Object
 -
