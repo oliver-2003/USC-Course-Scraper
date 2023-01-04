@@ -29,7 +29,7 @@ This call of the get_course_info function returns a Data Frame of the informatio
 scraper_econ = UscCourseScraper("econ", 2022, 3)
 scraper_econ.get_course_data_frame()
 ```
-This call of the get_course_dara_frame function returns a Data Frame of the information for all courses of Economics in 2022 Fall Semester combined with data including the rating and difficulty of each instructor. 
+This call of the get_course_data_frame function returns a Data Frame of the information for all courses of Economics in 2022 Fall Semester combined with data including the rating and difficulty of each instructor. 
 
 ### Export Data as a csv File
  ```python
