@@ -60,7 +60,7 @@ class UscCourseScraper:
             sessions = course.find_all("td", class_="session")
             for session_num in range(len(sessions)):
                 course_list.append(course_name)
-            # Since every table row has a "session", use generate a course name for each row based on the number of sessions
+            # Since every table row has a "session", use it to generate a course name for each row based on the number of sessions
 
             if course.find("td", class_="section-title") is not None:
                 sections = course.find_all("td", class_="section-title")
